@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Karrthik-Arya/website/static/css/main.a57aa887.css",
-    "main.js": "/Karrthik-Arya/website/static/js/main.c0c091b5.js",
+    "main.js": "/Karrthik-Arya/website/static/js/main.dcd6b0ff.js",
     "index.html": "/Karrthik-Arya/website/index.html",
     "main.a57aa887.css.map": "/Karrthik-Arya/website/static/css/main.a57aa887.css.map",
-    "main.c0c091b5.js.map": "/Karrthik-Arya/website/static/js/main.c0c091b5.js.map"
+    "main.dcd6b0ff.js.map": "/Karrthik-Arya/website/static/js/main.dcd6b0ff.js.map"
   },
   "entrypoints": [
     "static/css/main.a57aa887.css",
-    "static/js/main.c0c091b5.js"
+    "static/js/main.dcd6b0ff.js"
   ]
 }
