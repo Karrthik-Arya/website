@@ -41,15 +41,15 @@ const Intro: FC = () => {
         </div>}
 
         <div className="md:bottom-10 md:absolute flex flex-row gap-6">
-            <p className="text-2xl text-gray-100 opacity-70 hover:cursor-pointer hover:opacity-100">
+            <a href="https://github.com/Karrthik-Arya" target="_blank" className="text-2xl text-gray-100 opacity-70 hover:cursor-pointer hover:opacity-100" rel="noreferrer">
                 <FaGithub />
-            </p>
-            <p className="text-2xl text-gray-100 opacity-70 hover:cursor-pointer hover:opacity-100">
+            </a>
+            <a href="https://twitter.com/arya_karrthik" target="_blank" className="text-2xl text-gray-100 opacity-70 hover:cursor-pointer hover:opacity-100" rel="noreferrer">
                 <FaTwitter />
-            </p>
-            <p className="text-2xl text-gray-100 opacity-70 hover:cursor-pointer hover:opacity-100">
+            </a>
+            <a  href="https://www.linkedin.com/in/karrthik-arya-30997320b/" target="_blank" className="text-2xl text-gray-100 opacity-70 hover:cursor-pointer hover:opacity-100" rel="noreferrer">
                 <FaLinkedin />
-            </p>
+            </a>
         </div>
     </div>
 )}
