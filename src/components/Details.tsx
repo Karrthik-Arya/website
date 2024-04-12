@@ -3,9 +3,9 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 
 const Details : FC = () => (
-    <div className=" p-5 md:p-20">
+    <div className="h-full p-5 md:p-20">
         <p id='about' className="text-lg text-gray-200 opacity-70">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           I'm just your friendly neighborhood tech enthusiast! Been tinkering with code for about eight years now, dabbling in everything from web and app development to the wild worlds of ML/AI and robotics. There's nothing I love more than diving into mind-bending challenges that make me go, "Whoa." And when I'm not deep in the digital realm, you'll catch me out and about, exploring new places, meeting cool folks, and soaking up all the good vibes.
         </p>
 
         <p id='experience' className="text-2xl text-sky-100 mt-20">

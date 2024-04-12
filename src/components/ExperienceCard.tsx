@@ -6,12 +6,13 @@ type ExperienceCardProps = {
     title: string
     company: string
     location: string
-    description: string
+    description: string,
+    url?: string,
 }
 
-const ExperienceCard: FC<ExperienceCardProps> = ({title, duration, company, location, description}) => {
+const ExperienceCard: FC<ExperienceCardProps> = ({title, duration, company, location, description, url}) => {
     return (
-        <div className="group w-full m-2 p-2 rounded-lg hover:cursor-pointer hover:shadow-lg hover:bg-white/5 hover:backdrop-opacity-5 transition ease-in-out flex flex-row gap-10">
+        <div onClick={()=>url && window.open(url, '_blank')} className={`group w-full m-2 p-2 rounded-lg ${url? 'hover:cursor-pointer':''} hover:shadow-lg hover:bg-white/5 hover:backdrop-opacity-5 transition ease-in-out flex flex-row gap-10`}>
             <p className="w-1/4 text-slate-300 opacity-40 text-md my-1">
                 {duration}
             </p>
@@ -26,7 +27,7 @@ const ExperienceCard: FC<ExperienceCardProps> = ({title, duration, company, loca
                     <p className="text-gray-200 opacity-90 text-lg group-hover:text-green-300">
                         {company}
                     </p>
-                    <FiArrowUpRight className="-ml-1 transition ease-in-out w-5 h-5 my-auto text-gray-300 opacity-90 group-hover:text-green-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                    {url && <FiArrowUpRight className="-ml-1 transition ease-in-out w-5 h-5 my-auto text-gray-300 opacity-90 group-hover:text-green-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />}
                 </div>
                 <p className="text-gray-200 opacity-60 text-[20]">
                         {location}
